@@ -37,7 +37,7 @@ export default function App() {
 
       <header className="topbar">
         <div className="wrap topbar-in">
-          <a href="#top" onClick={go('top')} className="brand" aria-label="أحمد علي المرر — إلى الأعلى"><img src="/ahmed.webp" alt="" width={36} height={36} /><span>أحمد علي المرر</span></a>
+          <a href="#top" onClick={go('top')} className="brand" aria-label="أحمد علي المرر — إلى الأعلى"><img src="./ahmed.webp" alt="" width={36} height={36} /><span>أحمد علي المرر</span></a>
           <nav className="nav" aria-label="أقسام الصفحة"><ul>{NAV.map(([id, t]) => <li key={id}><a href={'#' + id} onClick={go(id)} aria-current={active === id ? 'true' : undefined} className={active === id ? 'on' : ''}>{t}</a></li>)}</ul></nav>
           <button type="button" className="icon-btn" onClick={() => setDark((d) => !d)} aria-pressed={dark} aria-label={dark ? 'الوضع الفاتح' : 'الوضع الداكن'}>{dark ? <Sun className="h-5 w-5" aria-hidden /> : <Moon className="h-5 w-5" aria-hidden />}</button>
         </div>
@@ -48,7 +48,7 @@ export default function App() {
         <section className="hero" aria-labelledby="h-name">
           <HeroMesh points={MESH} grain={.2} speed={reduced() ? 0 : .35} className="hero-bg" style={MESH_VARS} />
           <div className="wrap hero-in">
-            <div className="hero-photo"><img src="/ahmed.webp" alt="صورة أحمد علي المرر" width={360} height={360} /></div>
+            <div className="hero-photo"><img src="./ahmed.webp" alt="صورة أحمد علي المرر" width={360} height={360} /></div>
             <div className="hero-txt">
               <h1 id="h-name">أحمد علي المرر</h1>
               <p className="hero-en" lang="en" dir="ltr">Ahmed Ali Almarar</p>
@@ -59,8 +59,8 @@ export default function App() {
                 <li><Languages className="h-4 w-4" aria-hidden />{C.languages}</li>
               </ul>
               <div className="hero-cta">
-                <Magnet><a className="btn btn-gold" href="/cv/Ahmed_Almarar_CV_Arabic.pdf" download><Download className="h-5 w-5" aria-hidden />السيرة الذاتية (عربي) PDF</a></Magnet>
-                <Magnet><a className="btn btn-ghost" href="/cv/Ahmed_Almarar_CV_English.pdf" download><Download className="h-5 w-5" aria-hidden /><span>CV (English) PDF</span></a></Magnet>
+                <Magnet><a className="btn btn-gold" href="./cv/Ahmed_Almarar_CV_Arabic.pdf" download><Download className="h-5 w-5" aria-hidden />السيرة الذاتية (عربي) PDF</a></Magnet>
+                <Magnet><a className="btn btn-ghost" href="./cv/Ahmed_Almarar_CV_English.pdf" download><Download className="h-5 w-5" aria-hidden /><span>CV (English) PDF</span></a></Magnet>
               </div>
               <ul className="quick" aria-label="تواصل سريع">
                 <li><a href={`tel:${PHONE.replace(/\s/g, '')}`} aria-label={`اتصال ${PHONE}`}><Phone className="h-5 w-5" aria-hidden /></a></li>

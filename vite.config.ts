@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 import path from 'node:path';
 export default defineConfig({
-  base: '/',
+  base: './',
   plugins: [react(), tailwindcss()],
   resolve: { alias: { '@': path.resolve(import.meta.dirname, 'src') } },
   build: { outDir: 'dist', emptyOutDir: true, chunkSizeWarningLimit: 900 },

@@ -13,14 +13,14 @@
 @source "./components/gauge";
 
 @import "./registry/foundation.css" layer(base);
-@font-face{font-family:'Noto Kufi Arabic';font-weight:700 900;font-display:swap;src:url(/fonts/NotoKufi-700-arabic.woff2) format('woff2');unicode-range:U+0600-06FF,U+0750-077F,U+0870-08FF,U+FB50-FDFF,U+FE70-FEFC,U+200C-200E}
-@font-face{font-family:'Noto Kufi Arabic';font-weight:700 900;font-display:swap;src:url(/fonts/NotoKufi-700-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+2000-206F}
-@font-face{font-family:'IBM Plex Sans Arabic';font-weight:400;font-display:swap;src:url(/fonts/plex-arabic-400-arabic.woff2) format('woff2');unicode-range:U+0600-06FF,U+0750-077F,U+0870-08FF,U+FB50-FDFF,U+FE70-FEFC,U+200C-200E}
-@font-face{font-family:'IBM Plex Sans Arabic';font-weight:400;font-display:swap;src:url(/fonts/plex-arabic-400-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+2000-206F}
-@font-face{font-family:'IBM Plex Sans Arabic';font-weight:600;font-display:swap;src:url(/fonts/plex-arabic-600-arabic.woff2) format('woff2');unicode-range:U+0600-06FF,U+0750-077F,U+0870-08FF,U+FB50-FDFF,U+FE70-FEFC,U+200C-200E}
-@font-face{font-family:'IBM Plex Sans Arabic';font-weight:600;font-display:swap;src:url(/fonts/plex-arabic-600-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+2000-206F}
-@font-face{font-family:'IBM Plex Sans Arabic';font-weight:700;font-display:swap;src:url(/fonts/plex-arabic-700-arabic.woff2) format('woff2');unicode-range:U+0600-06FF,U+0750-077F,U+0870-08FF,U+FB50-FDFF,U+FE70-FEFC,U+200C-200E}
-@font-face{font-family:'IBM Plex Sans Arabic';font-weight:700;font-display:swap;src:url(/fonts/plex-arabic-700-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+2000-206F}
+@font-face{font-family:'Noto Kufi Arabic';font-weight:700 900;font-display:swap;src:url(../public/fonts/NotoKufi-700-arabic.woff2) format('woff2');unicode-range:U+0600-06FF,U+0750-077F,U+0870-08FF,U+FB50-FDFF,U+FE70-FEFC,U+200C-200E}
+@font-face{font-family:'Noto Kufi Arabic';font-weight:700 900;font-display:swap;src:url(../public/fonts/NotoKufi-700-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+2000-206F}
+@font-face{font-family:'IBM Plex Sans Arabic';font-weight:400;font-display:swap;src:url(../public/fonts/plex-arabic-400-arabic.woff2) format('woff2');unicode-range:U+0600-06FF,U+0750-077F,U+0870-08FF,U+FB50-FDFF,U+FE70-FEFC,U+200C-200E}
+@font-face{font-family:'IBM Plex Sans Arabic';font-weight:400;font-display:swap;src:url(../public/fonts/plex-arabic-400-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+2000-206F}
+@font-face{font-family:'IBM Plex Sans Arabic';font-weight:600;font-display:swap;src:url(../public/fonts/plex-arabic-600-arabic.woff2) format('woff2');unicode-range:U+0600-06FF,U+0750-077F,U+0870-08FF,U+FB50-FDFF,U+FE70-FEFC,U+200C-200E}
+@font-face{font-family:'IBM Plex Sans Arabic';font-weight:600;font-display:swap;src:url(../public/fonts/plex-arabic-600-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+2000-206F}
+@font-face{font-family:'IBM Plex Sans Arabic';font-weight:700;font-display:swap;src:url(../public/fonts/plex-arabic-700-arabic.woff2) format('woff2');unicode-range:U+0600-06FF,U+0750-077F,U+0870-08FF,U+FB50-FDFF,U+FE70-FEFC,U+200C-200E}
+@font-face{font-family:'IBM Plex Sans Arabic';font-weight:700;font-display:swap;src:url(../public/fonts/plex-arabic-700-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+2000-206F}
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
 @theme inline {

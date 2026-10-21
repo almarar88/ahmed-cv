@@ -111,7 +111,7 @@ export default function Sections({ toast: show, lenis }: { toast: (m: string) =>
           <Reveal className="socials">
             <NeonEdgeLink href={X_ME} target="_blank" rel="noopener" icon={<XIcon c="h-4 w-4" />}><bdi dir="ltr">@liwadc</bdi><span className="sr-only"> على إكس</span></NeonEdgeLink>
             <NeonEdgeLink href={IG_ME} target="_blank" rel="noopener" icon={<IgIcon c="h-4 w-4" />}><bdi dir="ltr">@liwadc</bdi><span className="sr-only"> على إنستغرام</span></NeonEdgeLink>
-            <Magnet><a className="btn btn-gold" href="/cv/Ahmed_Almarar_CV_Arabic.pdf" download><Download className="h-5 w-5" aria-hidden />تحميل السيرة الذاتية</a></Magnet>
+            <Magnet><a className="btn btn-gold" href="./cv/Ahmed_Almarar_CV_Arabic.pdf" download><Download className="h-5 w-5" aria-hidden />تحميل السيرة الذاتية</a></Magnet>
           </Reveal>
           <div className="totop"><MagneticButton variant="outline" size="md" className="ghost-mag" onClick={() => (lenis.current ? lenis.current.scrollTo(0) : scrollTo(0, 0))}><ArrowUp className="h-4 w-4" aria-hidden />إلى الأعلى</MagneticButton></div>
         </div></section>
